@@ -1,4 +1,4 @@
-module github.com/gonetx/ipset
+module github.com/charloco/ipset
 
 go 1.15
 
