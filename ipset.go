@@ -208,7 +208,7 @@ func Check() error {
 
 func isSupported() (bool, error) {
 	out, err := execCommand(ipsetPath, _version).
-		CombinedOutput()
+		Output()
 
 	if err == nil {
 		return getMajorVersion(out) >= minMajorVersion, nil
